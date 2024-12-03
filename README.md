@@ -12,8 +12,12 @@ User -Friendly Interface: The application is designed with an intuitive GUI for 
 ## Prerequisites
 1. Python 3.x
 2. MySQL Server
-3. 
+
+# Set-up
+1. *Clone the Repository*
+2. 
 ## Required Python libraries:
 mysql-connector-python
-tkinter
-datetime
+
+# Install depencies using:
+pip install mysql-connector-python
