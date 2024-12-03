@@ -15,9 +15,33 @@ User -Friendly Interface: The application is designed with an intuitive GUI for 
 
 # Set-up
 1. *Clone the Repository*
-2. 
+  
 ## Required Python libraries:
 mysql-connector-python
 
-# Install depencies using:
+## Install depencies using:
 pip install mysql-connector-python
+
+## Usage
+1.
+   python store_app.py
+2. *Use the interface to*
+    - Add products to the cart by entering the product name and quantity.
+    - View the current stock of products.
+    - Checkout and process payments.
+    - View daily sales summaries.
+
+## Database Structure
+  *pydatabase*
+    table *inventory*
+  - id int primary key auto_increment,
+  - Product_Name varchar(255),
+  - Price doubble,
+  - Stocks int
+    table *sales*
+  - sale_id primary key auto_increment,
+  - total_amount double
+  - timestamp timestamp
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
