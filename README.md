@@ -13,8 +13,6 @@ The Chelai Store Counter is a point-of-sale (POS) application designed to manage
 1. Python 3.x
 2. MySQL Server
 
-# Set-up
-1. *Clone the Repository*
   
 ## Required Python libraries:
 mysql-connector-python
