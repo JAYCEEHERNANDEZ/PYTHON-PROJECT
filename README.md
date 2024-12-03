@@ -43,5 +43,8 @@ pip install mysql-connector-python
   - total_amount double
   - timestamp timestamp
 
+## Directory Structure
+
+
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
