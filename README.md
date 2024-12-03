@@ -8,6 +8,24 @@ The Chelai Store Counter is a point-of-sale (POS) application designed to manage
 * View Products: Users can view current stock, add new products, modify existing products, restock items, and delete products.
 * Sales Summary: Users can view daily sales summaries and total sales amount.
 
+## Main Functionalities
+1. Cart Operations
+* Add items to the cart (add_to_cart).
+* Remove items from the cart (remove_from_cart).
+* Display the current cart contents in a Treeview widget.
+* Product Management:
+2. Product Management
+* View stock levels (view_stock).
+* Add new products (add_product).
+* Restock existing products (restock_product).
+* Modify product prices (modify_product).
+* Delete products from the database (delete_product).
+
+3. Sales Tracking:
+* Process a checkout operation (process_checkout).
+* Record sales in the database.
+* Display daily sales summary or all sales in a separate window (show_daily_summary).
+
 
 ## Prerequisites
 1. Python 3.x
@@ -17,13 +35,15 @@ The Chelai Store Counter is a point-of-sale (POS) application designed to manage
 ## Required Python libraries:
 `pip install mysql-connector-python`
 
-
 ## Install depencies using:
 `pip install mysql-connector-python`
 
 ## Usage
-1.
-   python store_app.py
+1. *Clone Repository
+   ```git clone <repository-url>
+    cd <repository-folder>
+```
+
 2. *Use the interface to*
     - Add products to the cart by entering the product name and quantity.
     - View the current stock of products.
@@ -47,7 +67,8 @@ The Chelai Store Counter is a point-of-sale (POS) application designed to manage
 |PYTHON PROJECT\
 |
 ├── Store.app.py # Main application
-├── Readme.md # This file ```
+├── Readme.md # This file
+
 
 
 ## License
