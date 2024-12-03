@@ -43,6 +43,7 @@ The Chelai Store Counter is a point-of-sale (POS) application designed to manage
   - timestamp timestamp
 
 ## Directory Structure
+```PYTHON PROJECT\
 
 
 ## License
