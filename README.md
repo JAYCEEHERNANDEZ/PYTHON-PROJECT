@@ -52,17 +52,19 @@ The Chelai Store Counter is a point-of-sale (POS) application designed to manage
     - View daily sales summaries.
 
 ## Database Structure
-  *pydatabase*
+ ```
+ *pydatabase*
     table *inventory*
   - id int primary key auto_increment,
   - Product_Name varchar(255),
   - Price doubble,
   - Stocks int
+
     table *sales*
   - sale_id primary key auto_increment,
   - total_amount double
   - timestamp timestamp
-
+```
 ## Directory Structure
 ```
 |PYTHON PROJECT\
