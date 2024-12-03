@@ -12,7 +12,7 @@ The Chelai Store Counter is a point-of-sale (POS) application designed to manage
 * Add items to the cart (add_to_cart).
 * Remove items from the cart (remove_from_cart).
 * Display the current cart contents in a Treeview widget.
-* Product Management:
+
 2. Product Management
 * View stock levels (view_stock).
 * Add new products (add_product).
