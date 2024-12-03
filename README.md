@@ -1,5 +1,4 @@
 ## CHELAI STORE COUNTER
-Overview
 The Chelai Store Counter is a point-of-sale (POS) application designed to manage sales, inventory, and customer transactions. The application features a user-friendly interface built using Tkinter and connects to a MySQL database to manage product inventory and sales records.
 
 ## Features
