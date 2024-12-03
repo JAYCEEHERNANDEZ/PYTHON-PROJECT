@@ -39,10 +39,10 @@ The Chelai Store Counter is a point-of-sale (POS) application designed to manage
 `pip install mysql-connector-python`
 
 ## Usage
-1. *Clone Repository
+1. *Clone Repository*
    ```git clone <repository-url>
     cd <repository-folder>
-```
+
 
 2. *Use the interface to*
     - Add products to the cart by entering the product name and quantity.
@@ -68,7 +68,7 @@ The Chelai Store Counter is a point-of-sale (POS) application designed to manage
 |
 ├── Store.app.py # Main application
 ├── Readme.md # This file
-
+```
 
 
 ## License
